@@ -91,7 +91,7 @@ button:hover {
 
 .about {
     background-color: var(--gray);
-    height: 55rem;
+    height: 130vh;
 }
 
 .settlement {
@@ -109,7 +109,7 @@ button:hover {
     float: right;
 }
 
-.about-sec1 {
+/* .about-sec1 {
     float: left;
     width: 50%;
     
@@ -119,7 +119,7 @@ button:hover {
     float: right;
     width: 50%;
     
-}
+} */
 
 .about-title {
     margin: 2rem 6rem;
@@ -138,4 +138,48 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 200;
     margin: 0;
+}
+
+.take-action {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid1 {
+    background-image: url('assets/container-home4.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.grid2 {
+    background-color: var(--green);
+}
+
+.grid3 {
+    background-color: var(--gray);
+}
+
+.grid4 {
+    background-image: url('assets/container-home2.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.title-take-action {
+    margin: 5rem 3rem 2rem 3rem;
+}
+
+.p-take-action {
+    margin: 0 3rem;
+    font-weight: 200;
+}
+
+#donation-btn {
+    background: var(--green);
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem 4rem 2rem 2rem;
+    float: right;
 }
