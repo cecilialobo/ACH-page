@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --blue: #428FE9;
+    --gray: #E5ECF4;
+    --green: #EFFFF9;
+    --blue-oppacity: rgba(66, 143, 233, 0.6);
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem;
+}
+
+.logo {
+    margin-top: 1rem;
+    width: 14.5rem;
+    height: 3.5rem;
+}
+
+button {
+    margin: 0 1rem;
+    text-decoration: none;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+button:hover {
+    color: var(--blue);
+    cursor: pointer;
+    
+}
+
+.landing {
+    background-image: url('assets/container-home3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.landing-text {
+    color: white;
+    background-color: var(--blue-oppacity);
+    width: 50%;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+.landing-title {
+    /* text-align: justify; */
+    font-size: 1.8rem;
+}
+
+.landing-p {
+    font-size: 1.5rem;
+}
+
+.landing-btn {
+    background: var(--blue);
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem;
+    float: right;
+}
+
+.landing-btn:hover {
+    background-color: var(--green);
+}
+
+.header-about {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.about {
+    background-color: var(--gray);
+    height: 55rem;
+}
+
+.settlement {
+    display: inline;
+    width: 50%;
+    height: 22rem;
+    opacity: 0.7;
+}
+
+.settlement1 {
+    display: inline;
+    width: 50%;
+    height: 22rem;
+    opacity: 0.7;
+    float: right;
+}
+
+.about-sec1 {
+    float: left;
+    width: 50%;
+    
+}
+
+.about-sec2 {
+    float: right;
+    width: 50%;
+    
+}
+
+.about-title {
+    margin: 2rem 6rem;
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.about-p {
+    margin: 0 6rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.about-btn {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 0;
+}
