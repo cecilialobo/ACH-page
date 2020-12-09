@@ -84,6 +84,9 @@ button:hover {
     background-color: var(--green);
 }
 
+.partners {
+    height: 50vh;
+}
 .header-about {
     margin: 0;
     padding: 0.5rem 0;
@@ -140,8 +143,12 @@ button:hover {
     margin: 0;
 }
 
+.work {
+    height: 100vh;
+}
+
 .take-action {
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
