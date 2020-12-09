@@ -87,6 +87,43 @@ button:hover {
 .partners {
     height: 50vh;
 }
+
+.partners-title {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    /* color: var(--gray); */
+    background-color: var(--green);
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.seb-logo {
+    height: 10rem;
+    width: 11rem;
+    justify-self: right;
+    margin-top: 2rem;
+}
+
+.hi-logo {
+    height: 11rem;
+    width: 11rem;
+    justify-self: center;
+    margin-top: 2rem;
+}
+
+.motherly-logo {
+    height: 10rem;
+    width: 10rem;
+    justify-self: left;
+    margin-top: 2rem;
+}
+
 .header-about {
     margin: 0;
     padding: 0.5rem 0;
@@ -100,14 +137,14 @@ button:hover {
 .settlement {
     display: inline;
     width: 50%;
-    height: 22rem;
+    height: 24rem;
     opacity: 0.7;
 }
 
 .settlement1 {
     display: inline;
     width: 50%;
-    height: 22rem;
+    height: 24rem;
     opacity: 0.7;
     float: right;
 }
