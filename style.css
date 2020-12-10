@@ -10,6 +10,9 @@
     --gray: #E5ECF4;
     --green: #EFFFF9;
     --blue-oppacity: rgba(66, 143, 233, 0.6);
+    --blue-back: rgba(66, 143, 233, 0.4);
+    --green-strong: #c4f2e1;
+    --gray-strong: #d3d9df;
 }
 
 body {
@@ -85,7 +88,7 @@ button:hover {
 }
 
 .partners {
-    height: 50vh;
+    height: 51vh;
 }
 
 .partners-title {
@@ -183,7 +186,7 @@ button:hover {
 .work {
     height: 100vh;
     position: relative;
-    background-color: var(--blue-oppacity);
+    background-color: var(--blue-back);
 }
 
 .work-text {
@@ -198,6 +201,10 @@ button:hover {
    float: right;
 }
 
+.work-p {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
 
 .take-action {
     height: 100vh;
@@ -236,20 +243,31 @@ button:hover {
 }
 
 #donation-btn {
-    background: var(--blue-oppacity);
+    background: var(--gray-strong);
     width: 10rem;
     height: 3rem;
     margin: 2rem 4rem 2rem 2rem;
     float: right;
 }
 
+#donation-btn:hover {
+    background: var(--blue);
+    color: var(--gray-strong);
+}
+
 #become-partner-btn {
-    background: var(--blue-oppacity);
+    background: var(--green-strong);
     width: 10rem;
     height: 3rem;
     margin: 2rem 4rem 2rem 2rem;
     float: right;
 }
+
+#become-partner-btn:hover {
+    background: var(--blue);
+    color: var(--green-strong);
+}
+
 
 .work-img {
     width: 35rem;
@@ -258,4 +276,24 @@ button:hover {
     margin-right: 4.7rem;
     margin-top: 1.4rem;
     opacity: 0.8;
+}
+
+.contact {
+    height: 30vh;
+    background-color: var(--green);
+    text-align: center;
+    font-weight: 200;
+    color: var(--blue);
+}
+
+.contact-text {
+    padding-top: 1.5rem;
+}
+
+.contact-p {
+    padding-bottom: 1rem;
+}
+
+i {
+    font-size: 1.6rem;
 }
