@@ -182,7 +182,21 @@ button:hover {
 
 .work {
     height: 100vh;
+    position: relative;
 }
+
+.work-text {
+    color: black;
+    background-color: var(--green);
+    width: 50%;
+    padding: 3rem;
+    position: absolute;
+    top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   float: right;
+}
+
 
 .take-action {
     height: 100vh;
@@ -221,7 +235,15 @@ button:hover {
 }
 
 #donation-btn {
-    background: var(--green);
+    background: var(--blue-oppacity);
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem 4rem 2rem 2rem;
+    float: right;
+}
+
+#become-partner-btn {
+    background: var(--blue-oppacity);
     width: 10rem;
     height: 3rem;
     margin: 2rem 4rem 2rem 2rem;
