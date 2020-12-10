@@ -183,6 +183,7 @@ button:hover {
 .work {
     height: 100vh;
     position: relative;
+    background-color: var(--blue-oppacity);
 }
 
 .work-text {
@@ -248,4 +249,13 @@ button:hover {
     height: 3rem;
     margin: 2rem 4rem 2rem 2rem;
     float: right;
+}
+
+.work-img {
+    width: 35rem;
+    height: 45rem;
+    float: right;
+    margin-right: 4.7rem;
+    margin-top: 1.4rem;
+    opacity: 0.8;
 }
